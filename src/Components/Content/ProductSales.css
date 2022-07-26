@@ -1,0 +1,13 @@
+.first .row {
+    display: flex;
+    justify-content: space-between;
+}
+.table th, .text-wrap table th {
+    color: #2e3138;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.table-bordered, .text-wrap table, .table-bordered th, .text-wrap table th, .table-bordered td, .text-wrap table td {
+    border: 1px solid #eaedf1;
+}

@@ -1,0 +1,210 @@
+.timeline{
+	background-color: #fff;
+}
+
+.common-width {
+    width: calc(100% / 3);
+    margin: 0 10px;
+    height: max-content;
+}
+
+.main_container_timeline {
+    margin: 20px 0;
+    display: flex;
+}
+.card-header {
+    padding: 1rem 1.5rem;
+    margin-bottom: 0;
+    background-color: transparenrt;
+    border-bottom: 1px solid #eaedf1;
+}
+.activity-details {
+    margin-left: 15px;
+    width: 80%;
+    margin-top: 6px;
+}
+
+.d-flex{
+	display: flex;
+}
+
+.text-muted {
+    color: #76839a;
+    font-size: 14px;
+	padding: 2px 0;
+}
+
+.bg-primary{
+	background-color: #6259ca;
+}
+.activity-blog {
+    display: flex;
+    position: relative;
+    min-height: 70px;
+}
+.bg-primary-transparent {
+    background-color: rgba(98, 89, 202, 0.2);
+}
+.text-primary {
+    color: #6259ca;
+}
+.brround {
+    border-radius: 50% !important;
+}
+.activity-img {
+    width: 45px;
+    height: 45px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+}
+.badge {
+    display: inline-block;
+    padding: 1em 0.8em;
+    font-size: 75% ;
+    line-height: 0;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 500;
+	color: #fff;
+}
+
+.card-body{
+	padding: 20px;
+}
+.text-secondary {
+    color: #fb6b25 !important;
+}
+.bg-secondary-transparent {
+    background-color: #fce9df;
+}
+
+.text-success {
+    color: #09ad95 !important;
+}
+
+.text-info {
+    color: #45aaf2 !important;
+}
+.text-danger {
+    color: #f82649 !important;
+}
+.bg-info-transparent {
+    background-color: #c7e0fd !important;
+}
+.bg-success-transparent {
+    background-color: rgba(0, 230, 130, 0.1) !important;
+}
+.bg-success-transparent {
+    background-color: rgba(0, 230, 130, 0.1) !important;
+}
+.bg-danger {
+    background: #f82649 !important;
+}
+.bg-warning {
+    background: #f7b731 !important;
+}
+.bg-info {
+    background: #45aaf2 !important;
+}
+.activity-blog:before {
+    content: "";
+    position: absolute;
+    top: 45px;
+    bottom: 0;
+    left: 23px;
+    border-left: 1px solid #e0e9f1;
+}
+
+.browser-stats {
+    /* min-height: 37px; */
+    display: flex;
+    padding: 15px 0 22px 0;
+    align-items: center;
+}
+.fe-arrow-up, .fe-arrow-down {
+    margin: 0 7px;
+}
+.ms-auto, .mx-auto {
+    margin-left: auto !important;
+}
+.d-flex {
+    display: flex !important;
+}
+
+.card-body {
+    padding: 20px;
+}
+.text-success {
+    color: #09ad95 !important;
+}
+
+.bg-secondary-gradient {
+    background: linear-gradient(to right bottom, rgb(144, 112, 255) 0%, rgb(255, 93, 158) 100%) !important;
+}
+.text-white {
+    color: rgb(255, 255, 255) !important;
+}
+.icons-style {
+    height: 33px;
+    width: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.d-flex.d-2 {
+    display: flex;
+    align-items: center;
+}
+.bg-danger-gradient {
+    background-image: linear-gradient(to right bottom, rgb(241, 191, 100) 0%, rgb(247, 29, 54) 100%) !important;
+}
+.bg-purple-gradient {
+    background: linear-gradient(to right bottom, rgb(137, 39, 236) 0%, rgb(100, 125, 238) 100%) !important;
+    color: rgb(255, 255, 255) !important;
+}
+.bg-info-gradient {
+    background: linear-gradient(to right bottom, rgb(30, 99, 195) 0%, rgb(0, 242, 254) 100%) !important;
+}
+.bg-success-gradient {
+    background: linear-gradient(to right bottom, rgb(75, 232, 212) 0%, rgb(18, 155, 210) 100%) !important;
+}
+.d-2 p {
+    margin-left: 6px;
+}
+
+.task-list li {
+    margin-bottom: 26px;
+    padding-left: 40px;
+    list-style-type: none;
+}
+.text-muted {
+    color: #76839a !important;
+}
+a.fw-semibold {
+    color: #6259ca;
+    text-decoration-line: none;
+    padding-left: 5px;
+}
+ul.task-list h6 {
+    font-size: 15px;
+    font-weight: 400;
+}
+ul.task-list .text-muted {
+    font-size: 13px;
+    /* margin-left: 10px; */
+}
+
+p.text-muted.fs-12 {
+    padding: 8px 0 0 0;
+    line-height: 22px;
+}
+
+span.text-muted.fs-11.mx-2 {
+    margin-left: 8px;
+}

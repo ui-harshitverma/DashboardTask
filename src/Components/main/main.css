@@ -1,0 +1,16 @@
+/* .main_container {
+    width: 100%;
+    max-width: 1075px;
+    margin-left: 4%;
+} */
+/* .main_container{
+
+	width: calc(100% - 260px);
+	margin-left: auto;
+  } */
+
+
+  .content_container{
+    background-color: #f2f3f9;
+    margin: 0;
+  }

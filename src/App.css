@@ -32,7 +32,40 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+/*mycss */
+.sideBar_container--none {
+  /* display: none; */
+  transition: .5s ease;
+  width: 60px;
+  position: fixed;
+  box-shadow: rgb(67 71 85 / 27%) 0px 0px 0.25em, rgb(90 125 188 / 5%) 0px 0.25em 1em;
+}
+
+.sideBar_container {
+  width: 260px;
+  transition: .5s ease;
+}
+
+.main_container--width {
+  width: calc(100% - 262px);
+  margin-left: auto;
+  transition: .5s ease;
+}
+
+.main_container {
+  margin-left: auto;
+  transition: .5s ease;
+  width: calc(100% - 60px);
+}
+
+.content_container{
+  padding: 0 30px 0 30px;
+  background-color: #61dafb;
+}
+

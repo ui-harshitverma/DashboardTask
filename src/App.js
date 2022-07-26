@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Main from './Components/main/main';
+import SideBar from './Components/SideBar/SideBar';
+import { useState } from 'react';
+import './custom.css'
 
 function App() {
+  const [isopen, setIsOpen] = useState(true);
+  const toggle = () => setIsOpen(!isopen);
+  const [val, setVal] = useState(false)
+  const myFun = () => {
+    setVal(!val)
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className={val?`sideBar_container--none`:`sideBar_container` }>
+        <SideBar funName={toggle} value1={val} />
+      </div>
+      <div className={val?`main_container`:`main_container--width` }>
+        <Main toggleBar1={myFun} />
+      </div>
+    </>
   );
 }
 

@@ -1,0 +1,71 @@
+.logo {
+    /* border-bottom: 1px solid #ddd; */
+    padding: 19px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.siderBar_item_list li{
+	list-style-type: none;
+}
+.sideBar_container {
+    position: fixed;
+    top: 0;
+    /* width: 259px; */
+    height: 100vh;
+    z-index: 45;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+
+.Sidebar_links{
+	display: flex;
+}
+
+.sideBar_items {
+    padding: 25px;
+}
+
+
+.Sidebar_links .icons {
+    font-size: 20px;
+    margin-right: 13px;
+}
+
+.Sidebar_links {
+    display: flex;
+    padding: 12px 0;
+    margin-bottom: 10px;
+}
+
+.listName_item{
+	font-size: 17px;
+}
+
+.sideBar_container{
+	transition: .5s ease;
+}
+
+.logo svg {
+    color: #495584;
+    z-index: 1;
+    transition: padding-left 0.3s ease;
+    padding: 9px;
+    text-align: center;
+    height: 22px;
+    font-size: 29px;
+    line-height: 1;
+    position: relative;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 2px 3px rgba(4, 4, 7, 0.1);
+}
+/* .sideBar_container{
+	width: 260px;
+  } */
+
+  .logo img:nth-child(2) {
+    width: 37px;
+}
